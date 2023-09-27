@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+</head>
+<body>
+    <form action="submit.html" method="get">
+    <fieldset>
+     <h1>Dado Tea Lunch Special</h1>
+     <p>Monday through Friday</p>
+     <p>11am to 3pm</p>
+     <p>$9.95 plus tax</p>
+     <p>Includes sandwich, snack and drink</p>
+    </fieldset>
+    <fieldset>
+        <legend>Order Information</legend><br>
+        <label>Name</label><br>
+        <input type="text" name="name"><br>
+        <input type="radio" name="where" value="Here">Here <br>
+        <input type="radio" name="where" value="To Go">To Go
+    </fieldset>
+    <fieldset>
+        <legend>Snack</legend>
+
+        <label><strong>Monday</strong></label><br>
+        <input type="radio" name="mon-menu" value="Tomato-Mozzerella">Tomato Mozzerella<br>
+        <input type="radio" name="mon-menu" value="Chicken-salad">Chicken Salad<br><br>
+
+        <label><strong>Tuesday</strong></label><br>
+        <input type="radio" name="tue-menu" value="Greek-salad-wrap">Greek salad wrap<br>
+        <input type="radio" name="tue-menu" value="Toto-wrap">Toto wrap<br><br>
+
+        <label><strong>Wednesday</strong></label><br>
+        <input type="radio" name="wed-menu" value="red-pepper-hummus">Red Pepper Hummus<br>
+        <input type="radio" name="wed-menu" value="roasted-turkey">Roasted Turkey<br><br>
+
+        <label><strong>Thursday</strong></label><br>
+        <input type="radio" name="thur-menu" value="carrot-ginger-hummus">Carrot Ginger-Hummus Wrap<br>
+        <input type="radio" name="thur-menu" value="Egg-Salad">Egg Salad<br><br>
+
+        <label><strong>Friday</strong></label><br>
+        <input type="radio" name="fri-menu" value="dado-wrap">Dado Wrap<br>
+        <input type="radio" name="fri-menu" value="Tuna-salad">Tuna Salad<br><br>
+        <hr>
+        <input type="checkbox" name="gluten-free-bread">Gluten Free Bread<br>
+    </fieldset>
+    <fieldset>
+        <legend>Snack</legend><br>
+        <label><strong>Snacks</strong></label><br>
+        <input type="radio" name="snacks">Apple<br>
+        <input type="radio" name="snacks">Banana<br>
+        <input type="radio" name="snacks">Potato chips<br>
+        </fieldset>
+        <fieldset>
+            <legend>Drink</legend><br>
+            <label><strong>Drink</strong></label>
+            <select id="drink" name="drink">
+                <option value="Hot coffee">Hot coffee</option>
+                <option value="Cold coffee">Cold coffee</option>
+                <option value="capacino">Capacino</option>
+                <option value="black coffee">Black coffee</option>
+            </select><br>
+            <hr>
+            <input type="checkbox" name="extra">Large drink (75¢ extra)
+        </fieldset><br>
+        <input type="submit" value="Place Order">
+</form>
+</body>
+</html>

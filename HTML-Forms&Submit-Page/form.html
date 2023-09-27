@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Forms</title>
+    </head>
+    <body>
+      
+        <form action="submit_form.html" method="get" target="_blank" enctype="">
+            <fieldset><legend>Registration form</legend>
+
+            <label>First Name : </label><input type="text" name="firstname" autocomplete="off"><br><br>
+            <label>Last Name : </label><input type="text" name="lastname" autocomplete="off"><br><br>
+            <label>User Name : </label><input type="text" name="username" autocomplete="off"><br><br>
+            <label>Password : </label><input type="password" name="password"><br><br>
+            <label>Email : </label><input type="email" name="email" autocomplete="off"><br><br>
+            <label>Gender : </label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+            <br><br>
+            <label>Sports : </label>
+            <input type="checkbox" name="sports" value="cricket">Cricket
+            <input type="checkbox" name="sports" value="football">Football
+            <input type="checkbox" name="sports" value="basketball">Basketball
+            <br><br>
+            <label>Address : </label><textarea id="address" rows="2" cols="20"></textarea>
+            <br><br>
+            <!-- <input type="image" alt="Upload" src="upload_file.jpg" width="50px" name="file"> -->
+            <input type="file" name="file">
+            <br><br>
+            <input type="image" alt="Submit" src="submit_button.jpg" width="100px">
+            <input type="reset" value="Reset">
+        </fieldset>
+        </form>
+    </body>
+</html>
